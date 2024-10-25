@@ -8,7 +8,14 @@ public class Payment {
 	public String Upi() {
 		return " UPI Payment is done";
 	}
+
 	public String paypal() {
 		return "This is paypal";
 	}
+
+	public String scanner() {
+		return "Qr code";
+	}
+	
+
 }
