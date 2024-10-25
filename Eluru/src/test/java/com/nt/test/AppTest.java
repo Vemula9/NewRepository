@@ -15,4 +15,18 @@ public class AppTest {
 		 int  actual=a.sum(20, 20); 
 		 assertEquals(expected, actual);
 	}
+	@Test
+	public void testWithNegaives() {
+		Arithmatic a=new Arithmatic();
+		 int expected=-40;
+		 int  actual=a.sum(-20, -20); 
+		 assertEquals(expected, actual);
+	}
+	@Test
+	public void testWithZeros() {
+		Arithmatic a=new Arithmatic();
+		 int expected=0;
+		 int  actual=a.sum(0, 0); 
+		 assertEquals(expected, actual);
+	}
 }
