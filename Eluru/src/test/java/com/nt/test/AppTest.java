@@ -11,9 +11,10 @@ public class AppTest {
 	@Test
 	public void testWithPositives() {
 		Arithmatic a=new Arithmatic();
+
 		 int expected=80;
 		 int  actual=a.sum(40, 40); 
-		 assertEquals(expected, actual);
+ assertEquals(expected, actual);
 	}
 	@Test
 	public void testWithNegaives() {
